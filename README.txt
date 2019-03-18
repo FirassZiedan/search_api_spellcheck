@@ -8,4 +8,5 @@ Results show: Did you mean [some suggestion]?. like in Google.
 How to use
 ----------
 
-Edit your Views search page and add the Spellcheck field to the Views' Header and/or Footer.
+# Edit your Views search page and add the Spellcheck field to the Views' Header and/or Footer.
+# Change 'Filter identifier' for Fulltext search in your view to "keyword"

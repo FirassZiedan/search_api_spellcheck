@@ -1,9 +1,8 @@
 type: module
 name: 'Search api spellcheck'
-description: 'Spell checking for search api.'
+description: 'Spell checking (Solr) for search API.'
 package: Search
 dependencies:
   - search_api_solr
-  - views
 core: 8.x
 version: '8.x-1.0'
