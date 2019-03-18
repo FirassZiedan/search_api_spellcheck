@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Implements search_api_solr_converted_query_alter().
+ */
+
+function search_api_spellcheck_search_api_solr_converted_query_alter ($solarium_query) {
+  $solarium_query->getSpellcheck();
+}
