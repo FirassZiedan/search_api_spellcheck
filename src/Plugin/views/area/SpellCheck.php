@@ -146,9 +146,10 @@ class SpellCheck extends AreaPluginBase {
           }
         }
 
-        foreach ($new_data as $datum) {
-          $keys = str_replace($datum['error'], $datum['suggestion'], $keys);
-        }
+//        foreach ($new_data as $datum) {
+//          $keys = str_replace($datum['error'], $datum['suggestion'], $keys);
+//        }
+        $keys = str_replace($new_data[0]['error'], $new_data[0]['suggestion'], $keys);
 
         $build = [
           [
